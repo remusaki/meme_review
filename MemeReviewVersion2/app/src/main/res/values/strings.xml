@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name"><font fgcolor="#fff">Meme Review</font></string>
+    <string name="addAccountURL">http://10.0.2.2/meme_review_php/API/addAccount.php</string>
+    <string name="loginAccountURL">http://10.0.2.2/meme_review_php/API/loginAccount.php</string>
+    <string name="addMemeURL">http://10.0.2.2/meme_review_php/API/addMeme.php</string>
+    <string name="getAllMemesURL">http://10.0.2.2/meme_review_php/API/getAllMemes.php</string>
+
+    <string name="getAllUserRatingsURL">http://10.0.2.2/meme_review_php/API/getAllUserRatings.php</string>
+    <string name="getAllUserRatingASC">http://10.0.2.2/meme_review_php/API/getAllUserRatingsASC.php</string>
+    <string name="getAllUserRatingDESC">http://10.0.2.2/meme_review_php/API/getAllUserRatingsDESC.php</string>
+
+    <string name="addRatingURL">http://10.0.2.2/meme_review_php/API/addRating.php</string>
+    <string name="getOneRatingURL">http://10.0.2.2/meme_review_php/API/getOneUserRatings.php</string>
+    <string name="updateMemeApprovalURL">http://10.0.2.2/meme_review_php/API/updateMemeApproval.php</string>
+
+    <string name="forgotPasswordURL">http://10.0.2.2/meme_review_php/API/forgotPassword.php</string>
+    <string name="updateAccountURL">http://10.0.2.2/meme_review_php/API/updateAccount.php</string>
+    <string name="getUserDetailsURL">http://10.0.2.2/meme_review_php/API/getUserDetails.php</string>
+
+    <string name="getAllMemeRatingURL">http://10.0.2.2/meme_review_php/API/getAllMemeRating.php</string>
+
+    <string name="deleteMemeURL">http://10.0.2.2/meme_review_php/API/deleteMeme.php</string>
+    <string name="deleteText">Delete Meme</string>
+
+    <string name="addText">Add Meme</string>
+    <string name="userRatingsText">View Ratings</string>
+    <string name="logoutText">Logout</string>
+
+    <string name="approveText">Approve Meme</string>
+    <string name="declineText">Decline Meme</string>
+    <string name="disableText">Disable Meme</string>
+
+    <string name="updateAccountText">Update Account</string>
+    <string name="forgotPasswordText">Forgot Password?</string>
+
+    <string-array name="memecategories">
+        <item>Nonsense</item>
+        <item>Wholesome</item>
+        <item>Dank</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="memeries.memereviewversion2.Activities.MemeReviewActivity">
+    <item
+        android:id="@+id/approveMeme"
+        android:orderInCategory="100"
+        android:title="@string/approveText"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/disableMeme"
+        android:orderInCategory="100"
+        android:title="@string/disableText"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/declineMeme"
+        android:orderInCategory="100"
+        android:title="@string/declineText"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/deleteMeme"
+        android:orderInCategory="100"
+        android:title="@string/deleteText"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/viewRatings"
+        android:orderInCategory="100"
+        android:title="@string/userRatingsText"
+        app:showAsAction="never"/>
+</menu>

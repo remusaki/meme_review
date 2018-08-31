@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="memeries.memereviewversion2.Activities.MemeActivity">
+    <item
+        android:id="@+id/addMeme"
+        android:orderInCategory="100"
+        android:title="@string/addText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/updateAccount"
+        android:orderInCategory="100"
+        android:title="@string/updateAccountText"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="@string/logoutText"
+        app:showAsAction="never"/>
+</menu>
